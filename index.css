@@ -13,11 +13,6 @@ Header {
     align-items: center;  
     border: 2px solid black;
     font-family: Helvetica;
-    font-size: 125px;
-    font-family: Helvetica;
-    color: beige;
-    font-weight: bold;
-    padding: 100px; 0px;
 }
 
 
@@ -26,8 +21,6 @@ Header {
     height: 150px;        
     background-color: lightgrey; 
     border: 2px solid black; 
-    font-family:Helvetica;
-    font-size: 75px;
 }
 
 #box{

@@ -1,9 +1,10 @@
 body, html {
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
 }
 
-#outer-box {
+Header {
     width: 300px;         
     height: 300px;        
     background-color: grey;
@@ -20,7 +21,7 @@ body, html {
 }
 
 
-#inner-box {
+#intro{
     width: 150px;          
     height: 150px;        
     background-color: lightgrey; 

@@ -5,8 +5,8 @@ body, html {
 }
 
 Header {
-    width: 1000px;         
-    height: 600px;        
+    width: 1200px;         
+    height: 200px;        
     background-color: grey;
     display: flex;         
     justify-content: center; 
@@ -14,15 +14,18 @@ Header {
     border: 2px solid black;
     font-family: Helvetica;
     font-size: 100px;
+    font-weight:bold;
+    
 }
 
 
 #intro{
-    width: 800px;          
+    width: 1200px;          
     height: 400px;        
     background-color: lightgrey; 
     border: 2px solid black; 
     font-size: 15px;
+    text-align: justify;
 }
 
 #box{
@@ -44,7 +47,7 @@ Header {
             padding: 20px; 
             border: 2px solid 
             border-radius: 10px;
-            background-color: lightgreen; 
+            background-color: brown; 
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             margin: 20px auto; 
             text-align: center;
@@ -63,7 +66,7 @@ Header {
             margin: 20px auto; 
             text-align: center;
             font-size: 25px;
-            color:lightgreen;
+            color:brown;
     font-family:helvetica;
 }
 

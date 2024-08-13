@@ -5,54 +5,78 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Larissa Almeida</title>
 </head>
-    
-<title>My Simple Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: lightgrey;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
+    <body>
     <header>
-        <h1>Hello, I'm Larissa</h1>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hello, I'm Larissa.</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="container">
-        <h2>welcome! I guess if you're here you want to know a little bit more about me. Let's go.</h2>
-        <p>From cooking up gourmet dishes to crafting sleek code, I'm on a journey from the kitchen to the keyboard! Trading in my chef’s knife for a laptop, I’m diving into the world of web development with the same passion and creativity that fueled my culinary career. Whether it’s perfecting a recipe or debugging a line of code, I’m all about making things work—beautifully. My sidekick? Baileys, the French bulldog who’s mastered the art of napping while I master full-stack development. Ready to turn up the heat in tech! 👩‍💻🐾</p>
-        <img src="https://www.shutterstock.com/image-vector/young-female-caucasian-character-cuddling-600nw-2164200599.jpg" alt="Placeholder Image">
-    </div>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>From cooking up gourmet dishes to crafting sleek code, I'm on a journey from the kitchen to the keyboard! Trading in my chef’s knife for a laptop, I’m diving into the world of web development with the same passion and creativity that fueled my culinary career. Whether it’s perfecting a recipe or debugging a line of code, I’m all about making things work—beautifully. My sidekick? Baileys, the French bulldog who’s mastered the art of napping while I master full-stack development. Ready to turn up the heat in tech.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>Description of your project 1.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>Description of your project 2.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email or connect with me on social media.</p>
+            <a href="oa.larissa@hotmail.com" class="btn">Email Me</a>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Larissa Almeida </p>
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
     </footer>
 </body>
-
-</html>
+  </html>

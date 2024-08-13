@@ -16,12 +16,12 @@ header {
 header h1 {
     margin: 0;
     font-size: 3.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 header p {
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 header nav ul {
@@ -102,7 +102,7 @@ footer p {
     margin: 0;
 }
 
-#header-img {
+.header-img {
     width: 300px; 
     height: 300px;
     border-radius: 50%;
